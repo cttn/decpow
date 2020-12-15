@@ -72,7 +72,7 @@ module modFlujo
     enddo
     close(55)
     write(*,'(A19,F9.3,A6)') "Intervalo total de ", sum(dias), " dias."
-    write(*,'(A40)') "############# CANDECPOW ################"
+    write(*,'(A40)') "############# DECPOW ################"
     write(*,*) 
   end subroutine leer_ini
 
